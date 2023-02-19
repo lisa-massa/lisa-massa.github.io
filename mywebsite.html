@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="mywebsite.css" rel="stylesheet">
+
+    <title>Lisa Massa | Full-Stack Web Developer</title>
+    <link rel="icon" type="image/x-icon" href="Website Imgs/favicon-32x32.png">
+
+</head>
+
+<body>
+    <nav class="navbar-light bg-white navbar-expand-lg fs-4 ps-5">
+        <div class="container-fluid">
+            <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse collapse-horizontal" id="navbarTogglerDemo02">
+                <div class="card card-body card border-0" style="width:300px">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#scrollspyHeading1">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="#scrollspyHeading2">What I Can Do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="#scrollspyHeading3">My Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="#scrollspyHeading4">My Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="#scrollspyHeading5">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex flex-row container-md pb-5">
+        <div class="row" id="header">
+            <div class="col-md-6">
+                <div id="hello">
+                    <h1>Hi!</h1> <br>
+                    <h2>My name is Lisa, and I write code.</h2>
+                </div>
+            </div>
+            <div class="col-md-6 img-fluid d-none d-lg-block">
+                <img src="Website Imgs/pp1edit.jpg" id="portrait" class="portrait" alt="portrait"></img>
+            </div>
+        </div>
+    </div>
+
+    <div id="scrollspy" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0"
+        class="scrollspy-example" tabindex="0">
+
+        <div class="container-md pt-3 pb-3 lh-base fs-4">
+            <p id="about">
+            <h4 id="scrollspyHeading1"><mark>About Me</mark></h4>
+            <p>I'm a <code>[junior]</code>full-stack web developer based in Montreal. </p>
+            <p>If I'm not coding, I'm either making food &#127836, eating food &#128512, running &#127939, or painting &#127912</p>
+            </p>
+        </div>
+
+        <div class="container-md pb-3 lh-base fs-4">
+            <p id="skills">
+            <section>
+                <h4 id="scrollspyHeading2"><mark>What I Can Do</mark></h4>
+                <p>I can build aesthetic - yet simple - full CRUD websites. Please see some examples <a href="#projects" id="projects">here</a>
+                    I can work well within a team, and have great foresight of project timelines (once I get settled!)
+
+                But not only that: I consider programming like I do languages.
+                   I'm interested in improving anywhere I can, and I look forward to seeing all kinds of new languages, logic, and syntax that I can use and practice at your firm.
+                </p>
+                </p>
+            </section>
+        </div>
+
+        <div class="container-md pb-3 lh-base fs-4">
+            <p id="skills">
+            <section>
+                <h4 id="scrollspyHeading3"><mark>What I Know</mark></h4>
+                My experience making various projects has helped me understand the basic building blocks of a web application. I understand the fundamentals of Front-End Development, including 
+                HTML5, CSS3, JavaScript ES6, Bootstrap, Bulma<br>
+
+                Of course, a full CRUD application cannot be built unless there is a strong back-end. While I'm in no way claiming to know these technologies inside and out, I am familiar with:
+                Node.js, Express.js, MongoDB, Mongoose, implementing APIs<br>
+
+                I also know of and understanding basic functions of version control systems, like Git and GitHub.
+                <!-- Might be useful to put a popover for Git stating i know Zshell/basic command line functions -->
+
+                Miscellaneously, I'm also well-acquainted with deploying via Heroku and Render, and I know my way around a content management system, especially Wordpress.
+                </p>
+            </section>
+        </div>
+
+        <div class="container-md pb-3 lh-base fs-4">
+            <a href="#projects"></a>
+                <section class="projects">
+                <p id="work">
+                <h4 class="mb-3" id="scrollspyHeading4"><mark>My Work</mark></h4>
+
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Website Imgs/museumofcandy.png" class="img-fluid rounded-start p-2"
+                                alt="museum of candy webpage preview">
+                            <div class="card-body">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                    aria-controls="multiCollapseExample2">Read more</button>
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <p class="card-text">This is a simple website I built for a fictional candy
+                                        museum.
+                                        This
+                                        project
+                                        helped me apply CSS to my websites, and to thoughtfully consider the role of
+                                        colour,
+                                        shape
+                                        and line to create a visually-appealing and contemporary webpage.</p>
+                                </div>
+                                <a href="" class="btn btn-light">Visit</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h3 class="card-title">Museum of Candy</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Website Imgs/scorekeeper.png" class="img-fluid rounded-start p-2"
+                                alt="score keeper webpage preview">
+                            <div class="card-body">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                    aria-controls="multiCollapseExample2">Read more</button>
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <p class="card-text">Score Keeper is an app designed to keep score between two
+                                        players. I
+                                        used
+                                        Bulma as a CSS framework
+                                        for styling and vanilla JavaScript for functionality. I built this project after
+                                        learning
+                                        about DOM manipulation but
+                                        before learning Async JavaScript and JavaScript frameworks.</p>
+                                </div>
+                                <a href="" class="btn btn-light">Visit</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h3 class="card-title">Score Keeper</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Website Imgs/museumofcandy.png" class="img-fluid rounded-start p-2"
+                                alt="Massa Art Gallery webpage preview">
+                            <div class="card-body">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                    aria-controls="multiCollapseExample2">Read more</button>
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                                        dolore nobis temporibus nesciunt! Recusandae animi, sed aliquid unde possimus
+                                        repellat incidunt, impedit eaque pariatur id, soluta maxime fuga illo
+                                        perferendis?.</p>
+                                </div>
+                                <a href="" class="btn btn-light">Visit</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <h3 class="card-title">Massa Art Gallery</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <a href="https://yelpcampcanada.onrender.com/"><img src="Website Imgs/yelpcamp1.png" id="yelpCamp" class="img-fluid rounded-start p-2" alt="YelpCamp webpage preview"></a>
+                            <div class="card-body">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                    aria-controls="multiCollapseExample2">Read more</button>
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <p class="card-text">This is a full-stack application called YelpCamp. You can search campsites, create new ones, leave reviews and delete them.</p>
+                                </div>
+                                <a href="" class="btn btn-light">Visit</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                               <h3 class="card-title">YelpCamp</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
+
+                <div class="d-flex justify-content-center container-md pb-3 lh-base fs-4" id="contact">
+                    <section>
+                        <p id="contact">
+                        <h4 id="scrollspyHeading5"><mark>Contact</mark></h4>
+                        <a id="link" class="link" href="mailto: lisamassa.art@gmail.com"><i class="bi bi-envelope"></i></a>
+                        <a id="link" class="link" href="https://ca.linkedin.com/in/lisa-massa-a49629219"
+                            target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a id="link" class="link" href="https://github.com/lisa-massa"><i class="bi bi-github"></i></a>
+                        </p>
+                    </section>
+                </div>
+                    
+                        <footer>
+                            <h5>Designed and Built by Lisa Massa, 2023</h5>
+                        </footer>
+
+
+                        <!-- JS Scripts -->
+
+                        <!-- <div class="circle"></div>
+                        <script src="anime.min.js"></script> -->
+
+                        <script src="mywebsite.js"></script>
+
+
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+                            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+                            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+                            crossorigin="anonymous"></script>
+</body>
+
+</html>
