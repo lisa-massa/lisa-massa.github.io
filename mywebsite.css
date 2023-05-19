@@ -56,6 +56,10 @@ footer {
     align-items: center;
 }
 
+.noDecorationUl {
+    list-style-type: none;
+}
+
 @media (max-width: 600px) {
     .portrait {
         width: 250px;
