@@ -56,6 +56,10 @@ footer {
     align-items: center;
 }
 
+.text-justify {
+    text-align: justify;
+  }
+
 .noDecorationUl {
     list-style-type: none;
 }
