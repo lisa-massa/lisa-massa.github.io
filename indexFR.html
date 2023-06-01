@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="mywebsite.css" rel="stylesheet">
+
+    <title>Lisa Massa | lisa-massa.github.io</title>
+    <link rel="icon" type="image/x-icon" href="Website Imgs/favicon-32x32.png">
+
+</head>
+
+<body>
+    <nav class="navbar-light bg-white navbar-expand-lg fs-4 ps-5">
+        <div class="container-fluid">
+            <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse collapse-horizontal" id="navbarTogglerDemo02">
+                <div class="card card-body card border-0" style="width:300px">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#apropos">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="#cequejefais">Ce que je fais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="#portefeuille">Portefeuille</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="index.html">EN</a>
+                        </li>
+                            <div class="d-flex flex-row-reverse text-end">
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5" aria-current="page" href="mycvFR.html">CV</a>
+                        </li>
+                            </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex flex-row container-md pb-5">
+        <div class="row" id="header">
+            <div class="col-md-6">
+                <div id="hello">
+                    <h1>Coucou!</h1> <br>
+                    <h2>Je m'appelle Lisa et j'aime créer.</h2>
+                </div>
+            </div>
+            <div class="col-md-6 img-fluid d-none d-lg-block">
+                <img src="Website Imgs/pp1edit.jpg" id="portrait" class="portrait" alt="portrait"></img>
+            </div>
+        </div>
+    </div>
+
+    <div id="scrollspy" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0"
+        class="scrollspy-example" tabindex="0">
+
+<!--         About Me -->
+        
+    <div class="container-md pt-3 pb-3 lh-base fs-4">
+        <p id="apropros">
+            <h4 id="heading1"><mark>À propos</mark></h4>
+            Je suis un <code>[junior]</code>développeuse Web full-stack basé à Montréal.
+           <div>
+            Je vais être honnête avec vous : je n'ai pas toujours su que c'était ce que je voulais faire. 
+            J'ai étudié les beaux-arts à l'école pendant près de dix ans, et c'est là que j'ai réalisé que j'avais une passion pour la création et l'apprentissage de nouvelles choses. 
+            que j'avais une passion pour la création et l'apprentissage de nouvelles choses.
+            Après avoir obtenu mon diplôme, j'ai décidé de me lancer le défi de créer des sites web. Et j'adore ça !
+            Voici mon CV complet si vous souhaitez en savoir plus sur mon expérience.
+           </div>
+
+           <div>
+            Si je ne code pas, je prépare de la bouffe &#127836, je mange de la bouffe &#128512, je cours &#127939, ou je peins &#127912.           </div>
+        </p>
+    </div>
+
+<!--     What I Do -->
+    
+        <div class="container-md pb-3 lh-base fs-4">
+            <p id="skills">
+            <section>
+                <h4 id="cequejefais"><mark>Ce que je fait</mark></h4>
+                <p>
+                  Je crée des sites web fonctionnels et réactifs tout en donnant la priorité à la convivialité et à 
+                  l'accessibilité. Voir quelques exemples <a href="#projects" id="projects">ici</a>. Je travaille bien en équipe et j'ai une bonne vision 
+                  des délais des projets. Je suis intéressé par la croissance, l'apprentissage et le retour d'information. 
+                  Je veux m'améliorer partout où je le peux et j'ai hâte d'apprendre de nouvelles syntaxes et de nouveaux 
+                  langages de codage au fur et à mesure que j'avance dans ma carrière.
+                </p>
+                </p>
+            </section>
+        </div>
+
+<!-- Projects -->
+
+ <div class="container-md pb-3 lh-base fs-4">
+            <!-- <a href="#projects"></a> -->
+                <section>
+                <!-- <p id="work"> -->
+                <h4 id="portefeuille" class="mb-3"><mark>Mes projets</mark></h4>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                <div class="d-flex card m-3" style="width: 35rem;">
+                    <h3 class="card-title text-center m-2">YelpCamp Canada</h3>
+                    <a href="https://yelpcampcanada.onrender.com/"><img src="Website Imgs/yelpcamp1.png" id="yelpCamp" class="img-fluid rounded-start p-2" alt="YelpCamp webpage preview"></a>
+                    <div class="card-body">
+                      <p class="card-text">Il s'agit d'une application complète appelée YelpCamp Canada. Vous pouvez rechercher des campings, en créer de nouveaux, laisser des commentaires et les supprimer.</p>
+                    </div>
+                  </div>
+
+                  <div class="card m-3" style="width: 35rem;">
+                    <h3 class="card-title text-center m-2">Museum of Candy</h3>
+                    <a href="https://lisa-massa.github.io/MuseumofCandy/"><img src="Website Imgs/museumofcandy.png" id="museumofcandy" class="img-fluid rounded-start p-2" alt="museum of candy webpage preview"></a>
+                    <div class="card-body">
+                      <p class="card-text">Il s'agit d'un site web que j'ai créé pour un magasin de bonbons.
+                        Ce projet m'a permis d'appliquer le CSS à mes sites web et de réfléchir au rôle de la couleur, de la forme et de la ligne pour créer une page web visuellement attrayante et contemporaine.
+                        de la couleur, de la forme et de la ligne pour créer une page web contemporaine et visuellement attrayante.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="card m-3" style="width: 35rem;">
+                    <h3 class="card-title text-center m-2">Massa Art Gallery</h3>
+                    <a href="https://massaartgallery.onrender.com/"><img src="Website Imgs/massaartgallery.png" id="massaartgallery" class="img-fluid rounded-start p-2" alt="massa art gallery webpage preview"></a>
+                    <div class="card-body">
+                      <p class="card-text">The Massa Art Gallery est une réplique du site web d'un musée. J'ai voulu mettre en œuvre différents éléments que l'on trouve sur le site d'un musée
+                        comme un calendrier des événements à venir, des outils de recherche pour que les clients puissent rechercher des œuvres d'art, et un formulaire de connexion et d'inscription pour les membres.</p>
+                    </div>
+                  </div>
+
+                  <div class="card m-3" style="width: 35rem;">
+                    <h3 class="card-title text-center m-2">Score Keeper</h3>
+                    <a href="https://lisa-massa.github.io/ScoreKeeper/"><img src="Website Imgs/scorekeeper.png" id="scorekeeper" class="img-fluid rounded-start p-2 " alt="score keeper webpage preview"></a>
+                    <div class="card-body">
+                      <p class="card-text">Score Keeper est une application conçue pour compter les points entre deux joueurs.
+                        joueurs. J'ai utilisé
+                        Bulma comme framework CSS
+                        pour le style et du JavaScript vanille pour les fonctionnalités. J'ai construit ce projet après avoir
+                        appris
+                        la manipulation du DOM et avant d'apprendre le JavaScript asynchrone et les frameworks JavaScript.</p>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+
+                    </div>
+                </section>
+                </div>
+            </div>
+        
+<!-- Contact -->
+
+                <div class="d-flex justify-content-center container-md pb-3 lh-base fs-4" id="contact">
+                    <section>
+                        <p id="contact">
+                        <h4 id="contact"><mark>Contact</mark></h4>
+                        <a id="link" class="link" href="mailto: lisamassa.art@gmail.com"><i class="bi bi-envelope"></i></a>
+                        <a id="link" class="link" href="https://www.linkedin.com/in/lisa-massa514/"
+                            target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a id="link" class="link" href="https://github.com/lisa-massa"><i class="bi bi-github"></i></a>
+                        </p>
+                    </section>
+                </div>
+                    
+                        <footer>
+                            <h5>Conçu et réalisé par Lisa Massa, <script>document.write(new Date().getFullYear())</script></h5>
+                        </footer>
+
+
+                        <!-- JS Scripts -->
+
+                        <!-- <div class="circle"></div>
+                        <script src="anime.min.js"></script> -->
+
+                        <script src="mywebsite.js"></script>
+                        <script src="anime.min.js"></script>
+
+
+                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+                            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+                            crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+                            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+                            crossorigin="anonymous"></script>
+</body>
+
+</html>
